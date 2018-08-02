@@ -21,6 +21,7 @@ export class Login extends React.Component<ILoginProps, ILoginState> {
     if (this.props !== prevProps) {
       this.setState({ showModal: this.props.showModal });
     }
+    // TODO
   }
 
   handleLogin = (username, password, rememberMe = false) => {
