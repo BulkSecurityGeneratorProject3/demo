@@ -29,6 +29,7 @@ export class Login extends React.Component<ILoginProps, ILoginState> {
 
   handleClose = () => {
     this.setState({ showModal: false });
+    // TODO
   };
 
   render() {
